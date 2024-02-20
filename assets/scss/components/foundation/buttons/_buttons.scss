@@ -24,6 +24,9 @@
     border: 1px solid $buttonStyle-primary-borderColor;
     color: $buttonStyle-primary-color;
     background-color: $buttonStyle-primary-backgroundColor;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     svg {
         fill: $buttonStyle-primary-color;
